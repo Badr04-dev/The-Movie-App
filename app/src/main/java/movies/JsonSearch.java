@@ -41,10 +41,10 @@ public class JsonSearch extends AbstractJsonFetcher{
 
     public void printSearchResults() throws Exception{
         String newQuerry=traiterChaine(querry);
-        AbstractJsonFetcher.printMenuMovies(new URL("https://api.themoviedb.org/3/search/movie?query="+newQuerry+"&api_key=8c1f02622cdb942096de14f60750f28b"));
+        AbstractJsonFetcher.printMenuMovies(new URL("https://api.themoviedb.org/3/search/movie?query="+newQuerry+"&api_key=..."));
     }
 
     public void printMovieDetails() throws Exception{
-        MovieDetails.printMovieDetails(new URL("https://api.themoviedb.org/3/movie/"+id+"?language=en-US&api_key=8c1f02622cdb942096de14f60750f28b"));
+        MovieDetails.printMovieDetails(new URL("https://api.themoviedb.org/3/movie/"+id+"?language=en-US&api_key=..."));
     }
 }
