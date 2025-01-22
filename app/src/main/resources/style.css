@@ -1,0 +1,83 @@
+/* style.css */
+
+.root {
+    -fx-font-family: "Arial", sans-serif;
+}
+
+#container {
+    -fx-padding: 10px;
+    -fx-background-color: #374f64; /*#2C3E50*/
+}
+
+/* Styles pour les boutons */
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-color: red; /* rouge */
+    -fx-text-fill: #fff; /* Blanc */
+    -fx-border-radius: 5px; /* Bord arrondi */
+}
+
+#text{
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #873600; /* Orange plus foncé au survol */
+}
+
+/* Style pour le champ de recherche */
+#searchField {
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #A9A9A9; /* Gris clair */
+}
+
+/* Style pour le menu déroulant */
+.combo-box {
+    -fx-font-size: 14px;
+}
+
+/* Style pour le texte */
+.text {
+    -fx-font-size: 14px;
+}
+
+/* Style pour la barre de défilement */
+.scroll-pane .scroll-bar {
+    -fx-background-color: #FFA500; /* Orange */
+}
+
+/* Style pour les étiquettes */
+.label {
+    -fx-font-size: 14px;
+}
+
+
+/* Style pour les éléments de la liste*/
+#movieListView .list-cell {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+}
+
+/* Style pour la boîte de dialogue d'alerte */
+.alert {
+    -fx-font-size: 14px;
+}
+
+#ratingSlider {
+    -fx-background-color: white;
+    -fx-background-radius:10px;
+    -fx-border-width: 2 ;
+    -fx-border-color : orange ;
+    -fx-border-style: solide;
+    -fx-border-radius:10px;
+}
+
+#movieListView{
+    -fx-pref-height:7000px;
+    -fx-pref-width: 1010px;
+    -fx-background-color: #F5DEB3;
+}
+
+
